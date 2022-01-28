@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-image: url("lambo.jpg");
+            background-size: cover;
+            background-repeat: repeat-y;
+            background-attachment: scroll;
+        }
+        h2{
+            color: black;
+            text-transform: capitalize;
+            text-decoration: underline;
+            text-indent: -50px;
+            letter-spacing: 3px;
+            word-spacing: 4px;
+            line-height: 3.0;
+            background-image: linear-gradient(12deg,teal,red,pink);
+        }
+        #mybox{
+            width: 200px;
+            height: 20px;
+            background-color: rgb(199, 153, 84);
+            border-radius: 20px;
+            margin: 20px;
+            animation-name: mynim;
+            animation-duration: 6 s;
+            animation-iteration-count: 3;
+        }
+        @keyframes mynim{
+            from{background-color: rgb(161, 101, 113);}
+            to{background-color: black;}
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <div align="center">
+     <h2>welcome home</h2>
+     <div align="center" id="mybox"> </div>
+    </div>
+    
+</body>
+</html>
